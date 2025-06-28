@@ -18,6 +18,10 @@ public class ContoBancario {
         return saldoConto;
     }
 
+    public int getNumeroConto() {
+        return this.numeroConto;
+    }
+
     public void Deposita(BigDecimal soldi) {
         if (soldi.compareTo(BigDecimal.ZERO) > 0) {
             this.saldoConto = this.saldoConto.add(soldi);

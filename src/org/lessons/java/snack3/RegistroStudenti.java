@@ -1,7 +1,5 @@
 package org.lessons.java.snack3;
 
-import org.lessons.java.snack1.Studente;
-
 public class RegistroStudenti {
 
     private String[] listaStudenti;
